@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(132deg, #da18ec, #1665c1);
+    background-size: 400% 400%;
+     animation: BackgroundGradient 10s ease infinite;
+ }
+
+        
+        @keyframes BackgroundGradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+       }
+
+header{
+    display: flex;
+  
+     }
+
+
+    a:link {
+    background-color: whitesmoke; 
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+          }
+     a:hover {
+            color: hotpink;
+              }
+    p{
+        font-size: 15px;
+    }          
+     .bouttonn{
+        margin-left: 800px;
+     }   
+  .chat{
+      display:flex;
+      flex-flow: column;
+      align-items: center;
+    
+     
+        }   
+ .container{
+    border: 2px solid #dedede;
+    background-color: #f1f1f1; 
+    border-radius: 30px; 
+    padding: 4px;
+    margin: 20px;
+    
+ }
+ .container1{
+    margin-left: -329px;
+    padding-right: 99px;
+}
+  .container2{
+    margin-left: -287px;
+  }
+
+ footer{
+ display:flex;
+ flex-flow: column;
+ align-items: center;
+         } 
+ .button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: inline;
+    
+        }
+
+.button1, .button2 {
+    background-color: red; 
+    color: black; 
+    border: 2px solid;
+    
+                   }
+
+.button2:hover, .button1:hover  {
+    
+    background-color:white;
+    color:red;
+}
+
+
+
+  
